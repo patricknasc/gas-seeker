@@ -18,6 +18,8 @@
 		EF2E21111DE4A6C100C6A491 /* PostosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2E21101DE4A6C100C6A491 /* PostosTableViewController.m */; };
 		EF2E21141DE4A77A00C6A491 /* PostoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2E21131DE4A77A00C6A491 /* PostoTableViewCell.m */; };
 		EF2E21161DE4AD8400C6A491 /* flags in Resources */ = {isa = PBXBuildFile; fileRef = EF2E21151DE4AD8400C6A491 /* flags */; };
+		EF2E211B1DE4D57E00C6A491 /* Posto.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2E21181DE4D57E00C6A491 /* Posto.m */; };
+		EF2E211C1DE4D57E00C6A491 /* PostoDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2E211A1DE4D57E00C6A491 /* PostoDAO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,10 @@
 		EF2E21121DE4A77A00C6A491 /* PostoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostoTableViewCell.h; sourceTree = "<group>"; };
 		EF2E21131DE4A77A00C6A491 /* PostoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostoTableViewCell.m; sourceTree = "<group>"; };
 		EF2E21151DE4AD8400C6A491 /* flags */ = {isa = PBXFileReference; lastKnownFileType = folder; path = flags; sourceTree = "<group>"; };
+		EF2E21171DE4D57E00C6A491 /* Posto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Posto.h; sourceTree = "<group>"; };
+		EF2E21181DE4D57E00C6A491 /* Posto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Posto.m; sourceTree = "<group>"; };
+		EF2E21191DE4D57E00C6A491 /* PostoDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostoDAO.h; sourceTree = "<group>"; };
+		EF2E211A1DE4D57E00C6A491 /* PostoDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostoDAO.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,10 @@
 		EF2E20D51DE49CB000C6A491 /* Postos */ = {
 			isa = PBXGroup;
 			children = (
+				EF2E21171DE4D57E00C6A491 /* Posto.h */,
+				EF2E21181DE4D57E00C6A491 /* Posto.m */,
+				EF2E21191DE4D57E00C6A491 /* PostoDAO.h */,
+				EF2E211A1DE4D57E00C6A491 /* PostoDAO.m */,
 				EF2E20D91DE49CB000C6A491 /* AppDelegate.h */,
 				EF2E20DA1DE49CB000C6A491 /* AppDelegate.m */,
 				EF2E210F1DE4A6C100C6A491 /* PostosTableViewController.h */,
@@ -291,6 +301,8 @@
 				EF2E21141DE4A77A00C6A491 /* PostoTableViewCell.m in Sources */,
 				EF2E20DB1DE49CB000C6A491 /* AppDelegate.m in Sources */,
 				EF2E21111DE4A6C100C6A491 /* PostosTableViewController.m in Sources */,
+				EF2E211B1DE4D57E00C6A491 /* Posto.m in Sources */,
+				EF2E211C1DE4D57E00C6A491 /* PostoDAO.m in Sources */,
 				EF2E20D81DE49CB000C6A491 /* main.m in Sources */,
 				EF2E20E41DE49CB000C6A491 /* Postos.xcdatamodeld in Sources */,
 			);

@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PostoDAO.h"
 
 @interface PostosTableViewController : UITableViewController
+
+
+@property NSMutableArray *postos;
+@property PostoDAO *dao;
+@property Posto *postoSelecionado;
+
 
 @end
